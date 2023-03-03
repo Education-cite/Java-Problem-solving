@@ -13,13 +13,18 @@ public class ForLoop {
 		
 		
 		// problem 2---------write a for Loop which will print summation of all the numbers 
-	//	which are divided by 3 an 5 between 30 to 100
+	//	which are divided by 3 an 5 between 30 to 120
 		
 		
+		int j;
+		int sum=0;
 		
-		
-		
-		
+		for(j=30;j<=120;j++) {
+			if(j%3==0 && j%5==0) {
+				sum=sum+j;
+			}
+		}
+		System.out.println("Result of Summation : " + sum);
 		
 		
 		
